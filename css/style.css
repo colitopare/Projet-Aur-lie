@@ -1,0 +1,80 @@
+/*
+#eceff1 blue-grey lighten-5
+#cfd8dc blue-grey lighten-4
+#b0bec5 blue-grey lighten-3
+#90a4ae blue-grey lighten-2
+#78909c blue-grey lighten-1
+#607d8b blue-grey
+#546e7a blue-grey darken-1
+#455a64 blue-grey darken-2
+#37474f blue-grey darken-3
+#263238 blue-grey darken-4
+*/
+
+/* Navigation */
+
+#sidebar {
+  position: fixed;
+  width: 330px;
+  float: left;
+  min-height: 100vh;
+}
+
+.name {
+  font-size: 24px;
+  margin: 50px 0;
+}
+
+.coordonnee {
+  padding-left: 38px;
+}
+
+#menu {
+  padding-left: 110px;
+}
+
+#menu li {
+  margin-bottom: 10px;
+}
+
+a.btn {
+  background-color: #607d8b;
+  width: 200px;
+}
+a.btn:hover {
+  background-color: #b0bec5;
+  color: #263238;
+}
+
+h2,
+h3,
+li.active > a {
+  color: #263238;
+}
+
+/* Main content */
+
+#content {
+  margin-left: 350px;
+  left: auto;
+  min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  min-height: 100vh;
+}
+
+#presentation {
+  color: #607d8b;
+}
+
+#texte {
+  padding-bottom: 1px;
+}
+
+.model-type {
+  display: flex;
+  justify-content: space-around;
+}
