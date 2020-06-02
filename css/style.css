@@ -55,8 +55,13 @@ h2 {
   color: #333333;
   margin-bottom: 35.6px;
 }
+h3 {
+  /* color: #333333; */
+  color: #ab2020;
+  font-size: 30px;
+  font-weight: bold;
+}
 
-h3,
 li.active > a {
   color: #333333;
 }
@@ -98,8 +103,7 @@ p > i {
 
 .card .card-title {
   font-size: 34px;
-  color: #ab2020;
-  font-weight: bold;
+  font-weight: 400;
 }
 .card .card-content .card-title {
   margin-bottom: 40px;
