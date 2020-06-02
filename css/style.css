@@ -20,6 +20,10 @@
   min-height: 100vh;
 }
 
+.fond {
+  background-color: #ab2020;
+}
+
 .name {
   font-size: 24px;
   margin: 50px 0;
@@ -27,10 +31,11 @@
 
 .coordonnee {
   padding-left: 38px;
+  color: white;
 }
 
 #menu {
-  padding-left: 110px;
+  margin-top: 50px;
 }
 
 #menu li {
@@ -46,12 +51,15 @@ a.btn:hover {
   color: #263238;
 }
 
-h2,
-h3,
-li.active > a {
-  color: #263238;
+h2 {
+  color: #333333;
+  margin-bottom: 35.6px;
 }
 
+h3,
+li.active > a {
+  color: #333333;
+}
 /* Main content */
 
 #content {
@@ -77,4 +85,42 @@ section {
 .model-type {
   display: flex;
   justify-content: space-around;
+}
+
+p > i {
+  margin-right: 7px;
+}
+
+.competences,
+.experiences {
+  width: 575px;
+}
+
+.card .card-title {
+  font-size: 34px;
+  color: #ab2020;
+  font-weight: bold;
+}
+.card .card-content .card-title {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p > em {
+  font-size: 1.5rem;
+}
+.sous-titre {
+  padding-bottom: 20px;
+}
+
+ul.liste > li {
+  list-style-type: disclosure-closed;
+}
+
+ul.liste {
+  padding-left: 10px;
 }
