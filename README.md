@@ -1,5 +1,15 @@
 # Projet-Aurélie
 
+lien clicable voir mon cv 
+    ouvre un pdf
+
+réduire largeur card compétences
+mettre de l'espace sous les textes
+
+puce sur google expériences
+
+réduire la taille des spans
+
 ## Pour récupérer le code
 
 git pull

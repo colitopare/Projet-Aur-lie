@@ -11,6 +11,18 @@
 #263238 blue-grey darken-4
 */
 
+@font-face {
+  font-family: "burbank";
+  src: url("BurbankBigCondensed-Black.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-family: burbank, sans-serif;
+  letter-spacing: 0.2rem;
+}
+
 /* Navigation */
 
 #sidebar {
@@ -21,7 +33,7 @@
 }
 
 .fond {
-  background-color: #ab2020;
+  background-color: #631e1e;
 }
 
 .name {
@@ -43,11 +55,11 @@
 }
 
 a.btn {
-  background-color: #607d8b;
+  background-color: #333333;
   width: 200px;
 }
 a.btn:hover {
-  background-color: #b0bec5;
+  background-color: #525252;
   color: #263238;
 }
 
@@ -57,13 +69,15 @@ h2 {
 }
 h3 {
   /* color: #333333; */
-  color: #ab2020;
+  color: #631e1e;
   font-size: 30px;
   font-weight: bold;
+  margin-top: 4rem !important;
 }
 
 li.active > a {
   color: #333333;
+  background-color: #737373;
 }
 /* Main content */
 
@@ -77,6 +91,7 @@ li.active > a {
 
 section {
   min-height: 100vh;
+  width: 100%;
 }
 
 #presentation {
@@ -96,9 +111,12 @@ p > i {
   margin-right: 7px;
 }
 
-.competences,
+.competences {
+  width: 38%;
+}
+
 .experiences {
-  width: 575px;
+  width: 58%;
 }
 
 .card .card-title {
@@ -115,16 +133,32 @@ img {
   margin-right: auto;
 }
 p > em {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .sous-titre {
   padding-bottom: 20px;
 }
 
 ul.liste > li {
-  list-style-type: disclosure-closed;
+  margin: 10px 0;
+  list-style: url("../icofont/dash.svg");
 }
 
 ul.liste {
-  padding-left: 10px;
+  padding-left: 30px;
+  margin: 12px 0;
+}
+
+.competences .card-content > p {
+  text-align: center;
+  margin-bottom: 50px !important;
+  margin-top: 10px !important;
+}
+.lienCV {
+  color: white;
+}
+
+/** CV ****/
+#cv {
+  min-height: 100vh;
 }
