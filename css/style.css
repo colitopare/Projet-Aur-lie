@@ -81,6 +81,18 @@ li.active > a {
 }
 /* Main content */
 
+#presentation > p {
+  font-size: 1.25rem;
+}
+
+#presentation {
+  margin: 25px;
+}
+
+#presentation > p {
+  color: #631e1e;
+}
+
 #content {
   margin-left: 350px;
   left: auto;
